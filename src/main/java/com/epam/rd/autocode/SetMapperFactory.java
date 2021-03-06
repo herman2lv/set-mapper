@@ -8,6 +8,6 @@ import java.util.Set;
 public class SetMapperFactory {
 
     public SetMapper<Set<Employee>> employeesSetMapper() {
-        throw new UnsupportedOperationException();
+        return new EmployeesSetMapper();
     }
 }
